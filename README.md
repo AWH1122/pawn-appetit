@@ -148,6 +148,18 @@ Prebuilt binaries are available for Windows, macOS, and Linux:
 | **macOS** | `.dmg` (Apple Silicon and Intel) |
 | **Linux** | `.AppImage`, `.deb`, or `.rpm` |
 
+### Homebrew (macOS)
+
+You can install Pawn Appétit using Homebrew:
+
+```bash
+# Using the cask (recommended - installs pre-built binary)
+brew install --cask https://raw.githubusercontent.com/Pawn-Appetit/pawn-appetit/main/homebrew/pawn-appetit.rb
+
+# Or build from source using the formula
+brew install https://raw.githubusercontent.com/Pawn-Appetit/pawn-appetit/main/homebrew/pawn-appetit-formula.rb
+```
+
 ### Quick Start
 
 1. Download and install Pawn Appétit for your platform
